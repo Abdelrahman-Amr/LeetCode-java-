@@ -11,6 +11,7 @@ public class SearchInRotatedSortedArray {
                 break;
             }
         }
+        (new String("a")).length();
         return result;
     }
 }
