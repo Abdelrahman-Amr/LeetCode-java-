@@ -30,7 +30,7 @@ public class App
 
     public static void main( String[] args )
     {
-
+        System.out.println();
 
     }
     public static void fun(Collection<?> col, Object o)
