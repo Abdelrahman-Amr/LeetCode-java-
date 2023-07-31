@@ -23,6 +23,7 @@ public class LongestConsecutive {
             l++;
             maxx = Math.max(maxx,c);
         }
+
         return maxx;
     }
 }
