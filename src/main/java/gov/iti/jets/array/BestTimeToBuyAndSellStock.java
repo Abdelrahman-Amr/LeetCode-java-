@@ -12,6 +12,7 @@ public class BestTimeToBuyAndSellStock {
             {
                 min = prices[i];
             }else{
+
                 if(prices[i] - min > profit){
                     profit= prices[i] - min;
                 }

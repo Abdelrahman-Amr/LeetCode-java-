@@ -1,10 +1,6 @@
 package gov.iti.jets;
 
-import gov.iti.jets.array.ProductOfArrayExceptSelf;
-import gov.iti.jets.array.TopKFrequentElements;
-
-import gov.iti.jets.array.TwoSum;
-import gov.iti.jets.array.ValidAnagram;
+import gov.iti.jets.array.*;
 
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -49,7 +45,11 @@ public class App
 
     public static void main( String[] args )
     {
-
+        Deque<Character> stack = new LinkedList<>();
+        stack.offer('a');
+        stack.offer('b');
+        stack.removeLast();
+        System.out.println(new ValidParentheses().isValid("([)]"));
 
 
 
